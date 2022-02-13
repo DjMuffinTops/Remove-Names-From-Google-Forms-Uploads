@@ -11,6 +11,7 @@ You will need to replace the `folderId` with the folder you'd like the script to
 ### Return to the spreadsheet refresh the page, you will find a `Rename Files Menu` tab above. Clicking on it will show the runnable functions.
 ![image](https://user-images.githubusercontent.com/68816695/153733013-abdeefc2-d455-448e-9559-710ebaea17a8.png)
 
+Click on any of the functions to run them. You will need to authorize the script on your first run, there will be a google popup for this.
 - `Preview Rename Functions` will go through the contents of the given folder and record what it would rename the files too onto the spreadsheet.
 
 - `Rename Functions` will do the same but actually rename the files.
