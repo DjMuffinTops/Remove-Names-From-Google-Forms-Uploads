@@ -62,7 +62,7 @@ function folderParser(folder, renameFiles, recursion) {
     if (indexOfNameSeparator !== -1) {
       let extension = ""; 
       if (indexOfFileExtension !== -1) {
-         currentFileName.substring(indexOfFileExtension); // Preserve the file extension at the end of the file if it's there
+         extension = currentFileName.substring(indexOfFileExtension); // Preserve the file extension at the end of the file if it's there
       }
       let newFileName = currentFileName.substring(0, indexOfNameSeparator);
       finalFileName = `${newFileName}${extension}`;
