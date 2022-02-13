@@ -15,6 +15,7 @@ Click on any of the functions to run them. You will need to authorize the script
 - `Preview Rename Functions` will go through the contents of the given folder and record what it would rename the files too onto the spreadsheet.
 
 - `Rename Functions` will do the same but actually rename the files.
+  - **⚠ NOTE: Whether or not it was uploaded from Google Forms, THIS WILL RENAME ANY FILES IN THE FOLDER(S) THAT HAVE THE GOOGLE SEPARATOR PREFIX ( ` - ` )IN IT**. Keep this in mind and make sure to use the `Preview Rename` functions before runnning `Rename` functions.
 
 - Both of these have a `Recursively` function which means it will also search through any sub folders of the given folder.
 
